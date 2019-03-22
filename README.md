@@ -31,7 +31,7 @@
   
  # Vorwort
  ## Markdown
-  Die Dokumentation ist im Markdown Format geschrieben. Das Markdown format wird in GitHub als Readme .md hochgeladen, um Benutern meines Respositories eine Anleitung zu bieten.[Wikipedia](https://de.wikipedia.org/wiki/Markdown)
+  Die Dokumentation ist im Markdown Format geschrieben. Das Markdown format wird in GitHub als Readme .md hochgeladen, um Benutern meines Respositories eine Anleitung zu bieten. [Wikipedia](https://de.wikipedia.org/wiki/Markdown)
   
  ## GitHub
 GitHub bieten allen seinen Benutzern eine Online-Platform, auf der sie unabhängig vom Betriebssystem Projekte ablegen können. Der grosse vorteil von GitHub ist die Versionierung mittels Git (daher kommt auch die Namensgebung), dies bedeutet, dass mittels einem einfachen "Git Pull" der lokale Respository mit dem auf GitHub verglichen und nötigenfalls aktualisiert werden. Hier die [Website](https://github.com/)
@@ -87,7 +87,7 @@ Der lokale Resporitory kann auf GitHub hochgeladen werden, um diesen zu übersch
 ## Vagrant
 ### Infos
 
-![VirtualBox](images/Vagrant.PNG)
+![Vagrant](images/vagrant.PNG)
 
 Mit Vagrant ist es möglich ganz einfach VMs zu erstellen. Dafür werden eine Vagrant Box und das Vagrantfile benötigt. Die Vagrant Box beinhaltet z.B. die virtuellen Festplatten der VM, während im Vagrant File Name, RAM grösse, CPU Anzahl etc. festgelegt werden.
 
