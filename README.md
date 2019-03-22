@@ -294,7 +294,7 @@ Zusätzlich konnte ich lernen:
 
 ## Lernschritte
 1. Ich konnte Git und GitHub kennen lernen. Ich konnte zudem die Befehle kennen lernen, mit denen ich Git verwenden kann.
-2. Die Erstellung einer VM mit Vagrant ist ein extrem umfängliches Thema. Besonders interessant fand ich , dass die erstellung und Konfiguration der VM später über die Kommandozeile ablief. Zudem habe ich gesehen, wie schnell eine VM mit Vagrant erstellt werden kann, im Vergleich zu einer manuellen erstellung.
+2. Die Erstellung einer VM mit Vagrant ist ein extrem umfängliches Thema. Besonders interessant fand ich , dass die erstellung und Konfiguration der VM später über die Kommandozeile ablief. Zudem habe ich gesehen, wie schnell eine VM mit Vagrant erstellt werden kann, im Vergleich zu einer manuellen Erstellung.
 3. Dokumentieren mit Markdown. Besonders interessant daran ist, dass ich jetzt endlich weiss wie die ganzen Dokumentationen im Internet aufgebaut sind, denn die meisten IT Dokus wurden mit MD-Dateien erstellt.
 # Anhang
 ## Versionen
