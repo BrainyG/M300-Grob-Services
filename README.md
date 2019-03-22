@@ -137,7 +137,7 @@ Eine VM die mit Vagrant erstellt wurde kann auch wieder mit Vagrant gelöscht we
 
 ## Visual Studion Code
 
-![VSCode](images/visualstudio.png)
+![VSCode](images/visualstudio.PNG)
 
 Visual Studio Code wurde von Microsoft für das editieren verschiedener Programmier und Scriptsprachen erschaffen. Von Haus aus werden bereits eine grosse Anzahl an Dateiformaten unterstützt, welche jedoch durch weitere Plugins erweitert werden können.
 
@@ -152,7 +152,7 @@ Zum arbeiten an dieser LB wurden 3 Plug-Ins benutzt:
 
 ## SSH Key zu GitHub
 
-  ![SSH](images/ssh.png)
+  ![SSH](images/ssh.PNG)
 
 Mit SSH können Verbindungen verschlüsselt werden. Dies wird hier eingesetzt, um die Verbindung zum Online Repository zu sichern, wenn dies Importiert oder Exportiert wird.
 
@@ -249,7 +249,7 @@ Der Text muss wie folgt ins Vagrantfile eingesetzt werden:
 
 Der VM Name ist nun richtig eingetragen:
 
-![vname_2](images/vmname_2.png)
+![vname_2](images/vmname_2.PNG)
 
 
 ### Erreichbarkeit des Service
@@ -262,13 +262,13 @@ Die Lösung liegt im Vagrantfile. Hiermuss die Netzwerkkonfiguration auf "public
 Darun hier der Vergleich:
 
 Vorher:
-![privatenetwork](images/privatenetwork.png)
+![privatenetwork](images/privatenetwork.PNG)
 
 Nachher:
-![publicnetwork](images/publicnetwork.png)
+![publicnetwork](images/publicnetwork.PNG)
 
 Der Webserver ist nun auch von anderen Geräten aus erreichbar.
-![webserver](images/webserver.png)
+![webserver](images/webserver.PNG)
 
 # Schluss
 ## Reflexion
