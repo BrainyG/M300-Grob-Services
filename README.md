@@ -185,7 +185,7 @@ config.vm.provider "virtualbox"  do |vb|
 
 vb.memory =  "1024"
 
-config.vm.network "private_network", ip: "10.71.13.3"
+config.vm.network "public_network", ip: "10.71.13.3"
 
 end
  ```
@@ -233,8 +233,42 @@ Zuerst wird der Paketdients aktualisiert. Das -y bestätigt die Installation. De
     apt-get install -y apache2
  ```
 
-### Test
+### Ergebnis
 Wenn alles geklappt hat kann man die IP der VM im Browser des Hosts eingeben und die Standardwebseite erscheint.
+
+## Testfälle
+
+### Name der VM
+Nach der ersten Testinstallation mit Vagrant ist mir aufgefallen, dass der Name der VM immer "default" ist. Ich wollte dies ändern, damit man erkennen kann, welche VM mit welchem Vagrantfile erstellt wurde.
+Im Internet suchte ich nach einer Lösung. Zuerst fand ich in einem Forum den Weg, dass mit "v.name = "vmname"" die VM benannt werden kann. Vagrant bricht die Installation jedoch sofort ab.
+
+Zum glück fand ich im gleichen Forum einen versteckten Thread, welcher beschreibt, dass mit "vb.name..." die VM benannt werden kann.
+Der Text muss wie folgt ins Vagrantfile eingesetzt werden:
+
+![vmname](images/vmname.PNG)
+
+Der VM Name ist nun richtig eingetragen:
+
+![vname_2](images/vmname_2.png)
+
+
+### Erreichbarkeit des Service
+
+Da es sich bei meinem Service im einen Webserver handelt, ist es sinnvoll wenn dieser von ausserhalb erreichbar ist. Die Tests von meinem Host aus verliefen immer erfolgreich.
+Von ausserhalb des internen Host Netzwerks konnte ich den Webserver jedoch nicht erreichen.
+
+Die Lösung liegt im Vagrantfile. Hiermuss die Netzwerkkonfiguration auf "public" gesetzt werden.
+
+Darun hier der Vergleich:
+
+Vorher:
+![privatenetwork](images/privatenetwork.png)
+
+Nachher:
+![publicnetwork](images/publicnetwork.png)
+
+Der Webserver ist nun auch von anderen Geräten aus erreichbar.
+![webserver](images/webserver.png)
 
 # Schluss
 ## Reflexion
