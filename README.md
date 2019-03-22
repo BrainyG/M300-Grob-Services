@@ -171,7 +171,7 @@ Vagrant erstellt automatisch einen Benutzer namens "Vagrant". Dieser hat bereits
 
 # Netzwerk
 
-![NetzwerkPlan](images/NetzwerkPlan.PNG)
+![NetzwerkPlan](images/netzwerkplan.PNG)
 
 # Umsetzung
 ## VM
