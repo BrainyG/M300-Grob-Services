@@ -46,7 +46,7 @@ Virtual Box bietet den vorteil, dass die meisten Vargant-Konfigurationen damit k
 
 ## Git-Client
 ### Infos
-![VirtualBox](images/virtualbox.png)
+![VirtualBox](images/virtualbox.PNG)
 
 Der Git Client ist ein kommandozeilenbasierenden Tool, mit dem wir die GitHub Respositories bedienen. Die Kommandos welche der Git Client verwendet, sind mit jenen der Linux Bash vergleichbar bzw. meistens sogar identisch.
 Der Git Client kann auf dieser [Website](https://git-scm.com/downloads) heruntergeladen und installiert werden.
