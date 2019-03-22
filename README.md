@@ -260,7 +260,7 @@ Zusätzlich konnte ich lernen:
 
 ## Lernschritte
 1. Ich konnte Git und GitHub kennen lernen. Ich konnte zudem die Befehle kennen lernen, mit denen ich Git verwenden kann.
-2. Die Erstellung einer VM mit Markdown
+2. Die Erstellung einer VM mit Vagrant ist ein extrem umfängliches Thema, für das dass ich Vagrant nachher nicht in einer produktiven Umgebung verwenden kann.
 3. Dokumentieren mit Markdown. Ich benutzte dazu das CHeatsheet auf dem BSCW. Mit Übung kommt man auch schneller voran.
 # Anhang
 ## Versionen
