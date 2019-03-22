@@ -51,7 +51,7 @@ Vagrant.configure("2") do |config|
   # Example for VirtualBox:
   #
   config.vm.provider "virtualbox" do |vb| # virtualbox wird als hypervisor definiert
-  v.name = "VM_Grob"
+  vb.name = "VM_Grob"
   #   # Display the VirtualBox GUI when booting the machine
   #   vb.gui = true
   #
