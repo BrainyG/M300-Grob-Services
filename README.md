@@ -41,14 +41,12 @@ GitHub bieten allen seinen Benutzern eine Online-Platform, auf der sie unabhäng
 ## VirtualBox
 ### Infos
 
-![VirtualBox](images/virtualbox.jpg)
-
 Als Virtualisierungsplattform wird VirtualBox benutzt. Installiert wird dies simpel über ihre Website. [Link](https://www.virtualbox.org/wiki/Downloads).
 Virtual Box bietet den vorteil, dass die meisten Vargant-Konfigurationen damit kompatibel sind.
 
 ## Git-Client
 ### Infos
-![VirtualBox](images/gitclient.PNG)
+![VirtualBox](images/virtualbox.jpg)
 
 Der Git Client ist ein kommandozeilenbasierenden Tool, mit dem wir die GitHub Respositories bedienen. Die Kommandos welche der Git Client verwendet, sind mit jenen der Linux Bash vergleichbar bzw. meistens sogar identisch.
 Der Git Client kann auf dieser [Website](https://git-scm.com/downloads) heruntergeladen und installiert werden.
@@ -139,7 +137,7 @@ Eine VM die mit Vagrant erstellt wurde kann auch wieder mit Vagrant gelöscht we
 
 ## Visual Studion Code
 
-![VirtualBox](images/vcs.PNG)
+![VSCode](images/visualstudio.png)
 
 Visual Studio Code wurde von Microsoft für das editieren verschiedener Programmier und Scriptsprachen erschaffen. Von Haus aus werden bereits eine grosse Anzahl an Dateiformaten unterstützt, welche jedoch durch weitere Plugins erweitert werden können.
 
@@ -154,7 +152,7 @@ Zum arbeiten an dieser LB wurden 3 Plug-Ins benutzt:
 
 ## SSH Key zu GitHub
 
-  ![VirtualBox](images/ssh.PNG)
+  ![SSH](images/ssh.png)
 
 Mit SSH können Verbindungen verschlüsselt werden. Dies wird hier eingesetzt, um die Verbindung zum Online Repository zu sichern, wenn dies Importiert oder Exportiert wird.
 
@@ -172,6 +170,8 @@ Damit schlussendlich auf den Webserver zugegriffen werden kann, muss der **Port 
 Vagrant erstellt automatisch einen Benutzer namens "Vagrant". Dieser hat bereits **Root** Rechte und kann somit alle benötigten Services installieren und konfigurieren.
 
 # Netzwerk
+
+![NetzwerkPlan](images/NetzwerkPlan.PNG)
 
 # Umsetzung
 ## VM
@@ -260,8 +260,8 @@ Zusätzlich konnte ich lernen:
 
 ## Lernschritte
 1. Ich konnte Git und GitHub kennen lernen. Ich konnte zudem die Befehle kennen lernen, mit denen ich Git verwenden kann.
-2. Die Erstellung einer VM mit Vagrant ist ein extrem umfängliches Thema, für das dass ich Vagrant nachher nicht in einer produktiven Umgebung verwenden kann.
-3. Dokumentieren mit Markdown. Ich benutzte dazu das CHeatsheet auf dem BSCW. Mit Übung kommt man auch schneller voran.
+2. Die Erstellung einer VM mit Vagrant ist ein extrem umfängliches Thema. Besonders interessant fand ich , dass die erstellung und Konfiguration der VM später über die Kommandozeile ablief. Zudem habe ich gesehen, wie schnell eine VM mit Vagrant erstellt werden kann, im Vergleich zu einer manuellen erstellung.
+3. Dokumentieren mit Markdown. Besonders interessant daran ist, dass ich jetzt endlich weiss wie die ganzen Dokumentationen im Internet aufgebaut sind, denn die meisten IT Dokus wurden mit MD-Dateien erstellt.
 # Anhang
 ## Versionen
 
